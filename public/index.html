@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Homepage</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header id="navbar" class="">
+      <section
+        id="navbar__upper"
+        class="flex flex-wrap items-center justify-between px-24 py-5 bg-blue-850"
+      >
+        <section class="navbar__upper__menubar">
+          <img id="navbar__logo" src="../assets/Logo.png" alt="" />
+        </section>
+
+        <section class="flex navbar__search__div">
+          <input
+            class="w-full px-6 py-2 text-gray-500 search-input focus:outline-none"
+            id="navbar__search"
+            type="text"
+            placeholder="Search by keyword or part number..."
+          />
+          <div class="block px-6 py-2 bg-white navbar__search__icon__div">
+            <img
+              id="navbar__search__icon"
+              src="../assets/magnifying-glass.svg"
+              alt=""
+            />
+          </div>
+        </section>
+
+        <section id="navbar__menu" class="flex justify-between w-96">
+          <div class="flex flex-col w-20 navbar__menu__div">
+            <img src="../assets/account.svg" class="h-6" alt="" />
+            <h4
+              class="text-xs font-medium text-center text-white navbar__menu__title"
+            >
+              Account Management
+            </h4>
+          </div>
+          <div class="flex flex-col w-20 navbar__menu__div">
+            <img src="../assets/paper_fill.svg" class="h-6" alt="" />
+            <h4
+              class="text-xs font-medium text-center text-white navbar__menu__title"
+            >
+              Request Quote
+            </h4>
+          </div>
+          <div class="flex flex-col w-20 navbar__menu__div">
+            <img src="../assets/notepad.svg" class="h-6" alt="" />
+            <h4
+              class="text-xs font-medium text-center text-white navbar__menu__title"
+            >
+              Quick Order Form
+            </h4>
+          </div>
+          <div class="flex flex-col w-20 navbar__menu__div">
+            <img src="../assets/cart.svg" class="h-6" alt="" />
+            <h4
+              class="text-xs font-medium text-center text-white navbar__menu__title"
+            >
+              Cart
+            </h4>
+          </div>
+        </section>
+      </section>
+
+      <section
+        class="flex flex-wrap items-center justify-between px-24 py-5 bg-blue-900 navbar__lower"
+      >
+        <div
+          class="flex flex-wrap justify-between navbar__lower__one space-x-7"
+        >
+          <div class="flex text-white a">
+            <h3 class="navbar__lower__p">All Products</h3>
+            <img
+              src="../assets/material-symbols_keyboard-arrow-down.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <h3 class="text-white navbar__lower__p">Request for Quote</h3>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-wrap justify-between navbar__lower__two w-96 space-x-7"
+        >
+          <div class="flex flex-wrap h-6 text-white navbar__list__contact">
+            <img src="../assets/call.svg" alt="" />
+            <p class="navbar__lower__p">1-800-12345</p>
+          </div>
+
+          <div class="flex flex-wrap h-6 text-white navbar__list__contact">
+            <img src="../assets/material-symbols_mail.svg" alt="" />
+            <h3 class="navbar__lower__p">tools@humcommerce.com</h3>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section
+        class="flex items-center m-14"
+      >
+        <div class="relative m-4">
+          <img class="image" src="../assets/Group 13229.png" alt="" />
+          <div
+            class="absolute flex flex-col justify-between text bottom-2 left-2 w-72 h-28"
+          >
+            <div>
+              <h3 class="text-xl font-bold text-white heading">Bulk Order</h3>
+              <p class="text-white text">
+                Speed up purchasing with Bulk Orders
+              </p>
+            </div>
+            <div class="flex space-x-6 btn">
+              <p class="font-medium text-white">View Form</p>
+              <img src="../assets/Vector.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="relative m-4">
+          <img class="image" src="../assets/Group 13229.png" alt="" />
+          <div
+            class="absolute flex flex-col justify-between text bottom-2 left-2 w-72 h-28"
+          >
+            <div>
+              <h3 class="text-xl font-bold text-white heading">
+                Create Company Account
+              </h3>
+              <p class="text-white text">
+                Register and manage your company account. Enable Purchase Order
+              </p>
+            </div>
+            <div class="flex space-x-6 btn">
+              <p class="font-medium text-white">View Form</p>
+              <img src="../assets/Vector.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="relative m-4">
+          <img class="image" src="../assets/Group 13229.png" alt="" />
+          <div
+            class="absolute flex flex-col justify-between text bottom-2 left-2 w-72 h-28"
+          >
+            <div>
+              <h3 class="text-xl font-bold text-white heading">
+                Make Your Purchase Lists
+              </h3>
+              <p class="text-white text">
+                Create multiple Purchase Lists to avoid searching for products
+              </p>
+            </div>
+            <div class="flex space-x-6 btn">
+              <p class="font-medium text-white">View Form</p>
+              <img src="../assets/Vector.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="main__section">
+        <section id="one" class="flex justify-between ml-24 mr-24">
+          <h2 class="text-xl font-semibold text-gray-800 one__title">
+            Shop By Category
+          </h2>
+          <div class="flex items-center justify-center w-40 one__view__div">
+            <h3 class="text-sm font-bold one__view">View All Categories</h3>
+            <img src="../assets/arrow-long-right.svg" alt="" />
+          </div>
+        </section>
+        <section id="two" class="flex flex-wrap ml-20">
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/a.png" alt="" />
+            <h4 class="two__item__title">Abrasives</h4>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/b.png" alt="" />
+            <h4 class="two__item__title">Adhesives, Sealants & Fillers</h4>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/c.png" alt="" />
+            <h4 class="two__item__title">Advanced Materials</h4>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/d.png" alt="" />
+            <h4 class="two__item__title">Automotive Parts & Hardware</h4>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img
+              class="w-32 category"
+              src="../assets/building_material.png"
+              alt=""
+            />
+            <h4 class="two__item__title">Building Materials</h4>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img
+              class="w-32 category"
+              src="../assets/cleaning_material.png"
+              alt=""
+            />
+            <h4 class="two__item__title">Cleaning Supplies</h4>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/coating.png" alt="" />
+            <h4 class="two__item__title">Coating</h4>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/compounds.png" alt="" />
+            <h4 class="two__item__title">Compounds and Polishes</h4>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/dental.png" alt="" />
+            <h4 class="two__item__title">Dental & Orthodonics</h4>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/electrical.png" alt="" />
+            <h4 class="two__item__title">Electrical</h4>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/electronic.png" alt="" />
+            <h4 class="two__item__title">Electronics Materials & Components</h4>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/films.png" alt="" />
+            <h4 class="two__item__title">Films & Sheeting</h4>
+          </div>
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/medical.png" alt="" />
+            <h4 class="two__item__title">Medical</h4>
+          </div>
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img
+              class="w-32 category"
+              src="../assets/office_supplies.png"
+              alt=""
+            />
+            <h4 class="two__item__title">Office Supplies</h4>
+          </div>
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/PPE.png" alt="" />
+            <h4 class="two__item__title">Personal Protective Equipment</h4>
+          </div>
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/signage.png" alt="" />
+            <h4 class="two__item__title">Signage & Marking</h4>
+          </div>
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/tapes.png" alt="" />
+            <h4 class="two__item__title">Tapes</h4>
+          </div>
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/tools.png" alt="" />
+            <h4 class="two__item__title">Tools & Equipment</h4>
+          </div>
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/a.png" alt="" />
+            <h4 class="two__item__title">Abrasives</h4>
+          </div>
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/b.png" alt="" />
+            <h4 class="two__item__title">Adhesives, Sealants & Fillers</h4>
+          </div>
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/c.png" alt="" />
+            <h4 class="two__item__title">Advanced Materials</h4>
+          </div>
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img class="w-32 category" src="../assets/d.png" alt="" />
+            <h4 class="two__item__title">Automotive Parts & Hardware</h4>
+          </div>
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img
+              class="w-32 category"
+              src="../assets/building_material.png"
+              alt=""
+            />
+            <h4 class="two__item__title">Building Materials</h4>
+          </div>
+          <div
+            class="flex flex-col items-center justify-around m-4 border-gray-500 two__item border-1 w-60 h-60"
+          >
+            <img
+              class="w-32 category"
+              src="../assets/cleaning_material.png"
+              alt=""
+            />
+            <h4 class="two__item__title">Cleaning Supplies</h4>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer id="footer" class="flex flex-col justify-between h-96 bg-slate-100">
+      <div class="flex flex-wrap justify-around pt-10 pb-10 footer__upperflex">
+        <section class="flex flex-col justify-between footer__section">
+          <h2 class="font-semibold footer__upper__title">Information</h2>
+          <ul class="footer__list">
+            <li class="font-normal text-gray-600 footer__list__item">
+              About Us
+            </li>
+            <li class="font-normal text-gray-600 footer__list__item">
+              Terms & Conditions
+            </li>
+            <li class="font-normal text-gray-600 footer__list__item">
+              Privacy Policy
+            </li>
+            <li class="font-normal text-gray-600 footer__list__item">
+              Join Us
+            </li>
+          </ul>
+        </section>
+        <section class="flex flex-col justify-between footer__section">
+          <h2 class="font-semibold footer__upper__title">Quick Links</h2>
+          <ul class="footer__list">
+            <li class="font-normal text-gray-600 footer__list__item">
+              Meet the Team
+            </li>
+            <li class="font-normal text-gray-600 footer__list__item">
+              Line Card
+            </li>
+            <li class="font-normal text-gray-600 footer__list__item">
+              Contact Us
+            </li>
+            <li class="font-normal text-gray-600 footer__list__item">
+              My Account
+            </li>
+          </ul>
+        </section>
+        <section class="flex flex-col justify-between footer__section">
+          <h2 class="font-semibold footer__upper__title">Customer service</h2>
+          <ul class="footer__list">
+            <li class="font-normal text-gray-600 footer__list__item">
+              Invoicing & Credit
+            </li>
+            <li class="font-normal text-gray-600 footer__list__item">
+              Return Policy
+            </li>
+            <li class="font-normal text-gray-600 footer__list__item">
+              Conflict Material Policy
+            </li>
+            <li class="font-normal text-gray-600 footer__list__item">
+              Contact Us
+            </li>
+          </ul>
+        </section>
+        <section class="flex flex-col justify-between footer__section">
+          <h2 class="font-semibold footer__upper__title">Contact Us</h2>
+          <ul class="footer__list">
+            <p class="font-normal text-gray-600 footer__list__item">
+              Questions? Call Us
+            </p>
+          </ul>
+          <div class="flex footer__list__contact">
+            <img src="../assets/material-symbols_call.svg" alt="" />
+            <p class="footer__list__number">1-800-12345</p>
+          </div>
+          <ul class="flex justify-between footer__socials">
+            <li>
+              <img src="../assets/uil_facebook.svg" alt="" />
+            </li>
+            <li>
+              <img src="../assets/mdi_twitter.svg" alt="" />
+            </li>
+            <li>
+              <img src="../assets/mdi_instagram.svg" alt="" />
+            </li>
+          </ul>
+        </section>
+
+        <section class="flex flex-col justify-between footer__section">
+          <h2 class="font-semibold footer__upper__title">
+            Get Latest Updates!
+          </h2>
+          <h3 class="font-normal text-gray-600 footer__list footer__list__item">
+            Subscribe for latest offers
+          </h3>
+          <form action="" class="flex flex-col">
+            <input
+              class="px-6 py-2 text-gray-500 border-gray-500 footer__input w-80 mr-11 focus:outline-none border-1"
+              placeholder="johndoe@gmail.com"
+              type="email"
+              name=""
+              id=""
+            />
+            <input class="p-4 mt-5 font-bold text-white bg-blue-700 footer__subscribe w-36" type="submit" value="Subscribe" />
+          </form>
+        </section>
+      </div>
+      <hr />
+      <div class="flex items-center justify-center">
+        <div class="font-normal text-gray-400 footer__copyright">
+          <p>Copyright@2023 HumCommerce Business. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
